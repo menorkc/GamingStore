@@ -1,0 +1,163 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(203, 145, 145);
+}
+
+section {
+    background-image: url('/img/img2.jpg');
+    background-size: cover;
+    height: 39vw;
+    padding-top: 5%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 300px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.66);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.box h1 {
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-style: oblique;
+    color: blueviolet;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+.box span {
+    color: white;
+    transition: 0.9s;
+}
+
+.box a {
+    text-decoration: none;
+}
+
+.box h1:hover {
+    color: rgb(95, 2, 183);
+}
+
+.box span:hover {
+    color: black;
+}
+
+.box-username {
+    margin-left: 15%;
+}
+
+.box-username p {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.box-username input {
+    padding: 5px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    width: 80%;
+}
+
+.box-password {
+    margin-left: 15%;
+}
+
+.box-password p {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.box-password input {
+    padding: 5px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    width: 80%;
+}
+
+.btn-error {
+    margin-left: 45%;
+    margin-top: 13px;
+}
+
+.btn-error a {
+    font-size: 13px;
+    padding: 10px;
+    color: black;
+    transition: 0.9s;
+}
+
+.btn-error a:hover {
+    text-decoration: underline;
+}
+
+.box-btn {
+    margin-top: -5%;
+    margin-left: 5px;
+}
+
+.box-btn a {
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    transition: 0.9s;
+}
+
+.box-btn a:hover {
+    background-color: rgb(99, 12, 181);
+}
+
+.btn-form-registro {
+    margin-top: 40%;
+    margin-left: 25%;
+}
+
+.btn-form-registro a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: blueviolet;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    transition: 0.9s;
+}
+
+.btn-form-registro a:hover {
+    background-color: rgb(99, 12, 181);
+}
+
+footer {
+    border-top: 1px solid rgba(77, 77, 77, 0.557);
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+.box-footer {
+    color: white;
+    background-color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
