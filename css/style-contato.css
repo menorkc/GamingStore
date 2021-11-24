@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock:wght@700&family=Roboto:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box-header {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.box-logo {
+    padding-right: 20px;
+    width: 55vw;
+}
+
+.box-logo h1 {
+    font-style: oblique;
+    color: white;
+    transition: 0.9s;
+    cursor: default;
+}
+
+.box-logo h1:hover {
+    color: rgba(0, 0, 0, 0.783);
+}
+
+.box-logo h1 span {
+    color: rgb(0, 0, 0);
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.box-logo h1 span:hover {
+    color: rgba(255, 255, 255, 0.646);
+}
+
+.box-menu {
+    text-align: center;
+    margin-right: 10px;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+.box-menu a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    transition: 0.9s;
+}
+
+.box-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.749);
+    color: rgb(0, 0, 0);
+}
+
+.box-login {
+    text-align: center;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.box-login a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    transition: 0.9s;
+}
+
+.box-login a:hover {
+    background-color: rgba(255, 255, 255, 0.646);
+    color: black;
+}
+
+.title {
+    background-color: blueviolet;
+}
+
+#main {
+    height: 33vw;
+    margin-top: 5%;
+    justify-content: center;
+    display: flex;
+}
+
+#container h7 {
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Overlock', cursive;
+    justify-content: center;
+    display: flex;
+}
+
+#container p {
+    margin-top: 15px;
+    margin-right: 10px;
+    width: 50vw;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+#box {
+    border: 2px solid rgba(62, 62, 62, 0.742);
+    border-radius: 10px;
+    background-image: url('/img/2.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    width: 20vw;
+    margin-bottom: 10px;
+}
+
+input {
+    border-radius: 10px;
+    border-style: none;
+}
+
+.box-txt {
+    margin-top: 15px;
+    padding: 4px;
+    width: 19vw;
+}
+
+.box-texto {
+    margin-top: 15px;
+    padding: 4px;
+    width: 19vw;
+    height: 6vw;
+}
+
+footer {
+    border-top: 1px solid rgba(77, 77, 77, 0.557);
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+.box-footer {
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
