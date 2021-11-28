@@ -123,3 +123,19 @@
     margin-top: 3px;
     margin-bottom: 10px;
 }
+
+#btn {
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    background-color: blueviolet;
+}
+
+#btn:hover {
+    background-color: rgba(94, 21, 163, 0.884);
+}
