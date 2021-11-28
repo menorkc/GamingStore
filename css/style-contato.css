@@ -136,9 +136,9 @@
 }
 
 #box {
-    border: 2px solid rgba(62, 62, 62, 0.742);
+    border-bottom: 2px solid rgba(62, 62, 62, 0.742);
     border-radius: 10px;
-    background-image: url('/img/2.jpg');
+    background-color: blueviolet;
     background-position: center;
     background-size: cover;
     padding: 10px;
@@ -155,6 +155,13 @@ input {
     margin-top: 15px;
     padding: 4px;
     width: 19vw;
+}
+
+#btns {
+    margin-right: 5px;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
 }
 
 .box-texto {
